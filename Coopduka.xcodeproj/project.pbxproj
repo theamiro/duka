@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C118BC2BFF331C00AAE554 /* CoopdukaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118BB2BFF331C00AAE554 /* CoopdukaApp.swift */; };
+		C9C118BE2BFF331C00AAE554 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118BD2BFF331C00AAE554 /* ContentView.swift */; };
+		C9C118C02BFF331C00AAE554 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118BF2BFF331C00AAE554 /* Item.swift */; };
+		C9C118C22BFF331E00AAE554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C118C12BFF331E00AAE554 /* Assets.xcassets */; };
+		C9C118C52BFF331E00AAE554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C118C42BFF331E00AAE554 /* Preview Assets.xcassets */; };
+		C9C118CF2BFF331F00AAE554 /* CoopdukaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118CE2BFF331F00AAE554 /* CoopdukaTests.swift */; };
+		C9C118D92BFF331F00AAE554 /* CoopdukaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118D82BFF331F00AAE554 /* CoopdukaUITests.swift */; };
+		C9C118DB2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118DA2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C118CB2BFF331F00AAE554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C118B02BFF331C00AAE554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C118B72BFF331C00AAE554;
+			remoteInfo = Coopduka;
+		};
+		C9C118D52BFF331F00AAE554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C118B02BFF331C00AAE554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C118B72BFF331C00AAE554;
+			remoteInfo = Coopduka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9C118B82BFF331C00AAE554 /* Coopduka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coopduka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C118BB2BFF331C00AAE554 /* CoopdukaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopdukaApp.swift; sourceTree = "<group>"; };
+		C9C118BD2BFF331C00AAE554 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9C118BF2BFF331C00AAE554 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C9C118C12BFF331E00AAE554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9C118C42BFF331E00AAE554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9C118CA2BFF331F00AAE554 /* CoopdukaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoopdukaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C118CE2BFF331F00AAE554 /* CoopdukaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopdukaTests.swift; sourceTree = "<group>"; };
+		C9C118D42BFF331F00AAE554 /* CoopdukaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoopdukaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C118D82BFF331F00AAE554 /* CoopdukaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopdukaUITests.swift; sourceTree = "<group>"; };
+		C9C118DA2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopdukaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C118B52BFF331C00AAE554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C118C72BFF331F00AAE554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C118D12BFF331F00AAE554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C118AF2BFF331C00AAE554 = {
+			isa = PBXGroup;
+			children = (
+				C9C118BA2BFF331C00AAE554 /* Coopduka */,
+				C9C118CD2BFF331F00AAE554 /* CoopdukaTests */,
+				C9C118D72BFF331F00AAE554 /* CoopdukaUITests */,
+				C9C118B92BFF331C00AAE554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C118B92BFF331C00AAE554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C118B82BFF331C00AAE554 /* Coopduka.app */,
+				C9C118CA2BFF331F00AAE554 /* CoopdukaTests.xctest */,
+				C9C118D42BFF331F00AAE554 /* CoopdukaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C118BA2BFF331C00AAE554 /* Coopduka */ = {
+			isa = PBXGroup;
+			children = (
+				C9C118BB2BFF331C00AAE554 /* CoopdukaApp.swift */,
+				C9C118BD2BFF331C00AAE554 /* ContentView.swift */,
+				C9C118BF2BFF331C00AAE554 /* Item.swift */,
+				C9C118C12BFF331E00AAE554 /* Assets.xcassets */,
+				C9C118C32BFF331E00AAE554 /* Preview Content */,
+			);
+			path = Coopduka;
+			sourceTree = "<group>";
+		};
+		C9C118C32BFF331E00AAE554 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9C118C42BFF331E00AAE554 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9C118CD2BFF331F00AAE554 /* CoopdukaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C118CE2BFF331F00AAE554 /* CoopdukaTests.swift */,
+			);
+			path = CoopdukaTests;
+			sourceTree = "<group>";
+		};
+		C9C118D72BFF331F00AAE554 /* CoopdukaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C118D82BFF331F00AAE554 /* CoopdukaUITests.swift */,
+				C9C118DA2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift */,
+			);
+			path = CoopdukaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C118B72BFF331C00AAE554 /* Coopduka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C118DE2BFF331F00AAE554 /* Build configuration list for PBXNativeTarget "Coopduka" */;
+			buildPhases = (
+				C9C118B42BFF331C00AAE554 /* Sources */,
+				C9C118B52BFF331C00AAE554 /* Frameworks */,
+				C9C118B62BFF331C00AAE554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coopduka;
+			productName = Coopduka;
+			productReference = C9C118B82BFF331C00AAE554 /* Coopduka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C118C92BFF331F00AAE554 /* CoopdukaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C118E12BFF331F00AAE554 /* Build configuration list for PBXNativeTarget "CoopdukaTests" */;
+			buildPhases = (
+				C9C118C62BFF331F00AAE554 /* Sources */,
+				C9C118C72BFF331F00AAE554 /* Frameworks */,
+				C9C118C82BFF331F00AAE554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C118CC2BFF331F00AAE554 /* PBXTargetDependency */,
+			);
+			name = CoopdukaTests;
+			productName = CoopdukaTests;
+			productReference = C9C118CA2BFF331F00AAE554 /* CoopdukaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9C118D32BFF331F00AAE554 /* CoopdukaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C118E42BFF331F00AAE554 /* Build configuration list for PBXNativeTarget "CoopdukaUITests" */;
+			buildPhases = (
+				C9C118D02BFF331F00AAE554 /* Sources */,
+				C9C118D12BFF331F00AAE554 /* Frameworks */,
+				C9C118D22BFF331F00AAE554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C118D62BFF331F00AAE554 /* PBXTargetDependency */,
+			);
+			name = CoopdukaUITests;
+			productName = CoopdukaUITests;
+			productReference = C9C118D42BFF331F00AAE554 /* CoopdukaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C118B02BFF331C00AAE554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C9C118B72BFF331C00AAE554 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C9C118C92BFF331F00AAE554 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C9C118B72BFF331C00AAE554;
+					};
+					C9C118D32BFF331F00AAE554 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C9C118B72BFF331C00AAE554;
+					};
+				};
+			};
+			buildConfigurationList = C9C118B32BFF331C00AAE554 /* Build configuration list for PBXProject "Coopduka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C118AF2BFF331C00AAE554;
+			productRefGroup = C9C118B92BFF331C00AAE554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C118B72BFF331C00AAE554 /* Coopduka */,
+				C9C118C92BFF331F00AAE554 /* CoopdukaTests */,
+				C9C118D32BFF331F00AAE554 /* CoopdukaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C118B62BFF331C00AAE554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C118C52BFF331E00AAE554 /* Preview Assets.xcassets in Resources */,
+				C9C118C22BFF331E00AAE554 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C118C82BFF331F00AAE554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C118D22BFF331F00AAE554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C118B42BFF331C00AAE554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C118BE2BFF331C00AAE554 /* ContentView.swift in Sources */,
+				C9C118C02BFF331C00AAE554 /* Item.swift in Sources */,
+				C9C118BC2BFF331C00AAE554 /* CoopdukaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C118C62BFF331F00AAE554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C118CF2BFF331F00AAE554 /* CoopdukaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C118D02BFF331F00AAE554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C118DB2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift in Sources */,
+				C9C118D92BFF331F00AAE554 /* CoopdukaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C118CC2BFF331F00AAE554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C118B72BFF331C00AAE554 /* Coopduka */;
+			targetProxy = C9C118CB2BFF331F00AAE554 /* PBXContainerItemProxy */;
+		};
+		C9C118D62BFF331F00AAE554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C118B72BFF331C00AAE554 /* Coopduka */;
+			targetProxy = C9C118D52BFF331F00AAE554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9C118DC2BFF331F00AAE554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9C118DD2BFF331F00AAE554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C118DF2BFF331F00AAE554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coopduka/Preview Content\"";
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.Coopduka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C118E02BFF331F00AAE554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coopduka/Preview Content\"";
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.Coopduka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9C118E22BFF331F00AAE554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.CoopdukaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coopduka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coopduka";
+			};
+			name = Debug;
+		};
+		C9C118E32BFF331F00AAE554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.CoopdukaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coopduka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coopduka";
+			};
+			name = Release;
+		};
+		C9C118E52BFF331F00AAE554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.CoopdukaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coopduka;
+			};
+			name = Debug;
+		};
+		C9C118E62BFF331F00AAE554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CVR223BS4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelamiro.CoopdukaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coopduka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C118B32BFF331C00AAE554 /* Build configuration list for PBXProject "Coopduka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C118DC2BFF331F00AAE554 /* Debug */,
+				C9C118DD2BFF331F00AAE554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C118DE2BFF331F00AAE554 /* Build configuration list for PBXNativeTarget "Coopduka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C118DF2BFF331F00AAE554 /* Debug */,
+				C9C118E02BFF331F00AAE554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C118E12BFF331F00AAE554 /* Build configuration list for PBXNativeTarget "CoopdukaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C118E22BFF331F00AAE554 /* Debug */,
+				C9C118E32BFF331F00AAE554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C118E42BFF331F00AAE554 /* Build configuration list for PBXNativeTarget "CoopdukaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C118E52BFF331F00AAE554 /* Debug */,
+				C9C118E62BFF331F00AAE554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C118B02BFF331C00AAE554 /* Project object */;
+}
