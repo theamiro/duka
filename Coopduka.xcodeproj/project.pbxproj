@@ -15,6 +15,11 @@
 		C9C118CF2BFF331F00AAE554 /* CoopdukaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118CE2BFF331F00AAE554 /* CoopdukaTests.swift */; };
 		C9C118D92BFF331F00AAE554 /* CoopdukaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118D82BFF331F00AAE554 /* CoopdukaUITests.swift */; };
 		C9C118DB2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118DA2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift */; };
+		C9C118E82BFF346100AAE554 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118E72BFF346100AAE554 /* AuthViewModel.swift */; };
+		C9C118EA2BFF39CC00AAE554 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118E92BFF39CC00AAE554 /* DashboardView.swift */; };
+		C9C118EC2BFF43F100AAE554 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118EB2BFF43F100AAE554 /* DashboardViewModel.swift */; };
+		C9C118EE2BFF443E00AAE554 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118ED2BFF443E00AAE554 /* NetworkError.swift */; };
+		C9C118F02BFF445900AAE554 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C118EF2BFF445900AAE554 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		C9C118D42BFF331F00AAE554 /* CoopdukaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoopdukaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C118D82BFF331F00AAE554 /* CoopdukaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopdukaUITests.swift; sourceTree = "<group>"; };
 		C9C118DA2BFF331F00AAE554 /* CoopdukaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoopdukaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9C118E72BFF346100AAE554 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		C9C118E92BFF39CC00AAE554 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C9C118EB2BFF43F100AAE554 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		C9C118ED2BFF443E00AAE554 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C9C118EF2BFF445900AAE554 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,13 @@
 		C9C118BA2BFF331C00AAE554 /* Coopduka */ = {
 			isa = PBXGroup;
 			children = (
+				C9C118EB2BFF43F100AAE554 /* DashboardViewModel.swift */,
 				C9C118BB2BFF331C00AAE554 /* CoopdukaApp.swift */,
 				C9C118BD2BFF331C00AAE554 /* ContentView.swift */,
+				C9C118E92BFF39CC00AAE554 /* DashboardView.swift */,
+				C9C118ED2BFF443E00AAE554 /* NetworkError.swift */,
+				C9C118E72BFF346100AAE554 /* AuthViewModel.swift */,
+				C9C118EF2BFF445900AAE554 /* Product.swift */,
 				C9C118BF2BFF331C00AAE554 /* Item.swift */,
 				C9C118C12BFF331E00AAE554 /* Assets.xcassets */,
 				C9C118C32BFF331E00AAE554 /* Preview Content */,
@@ -260,7 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C118E82BFF346100AAE554 /* AuthViewModel.swift in Sources */,
+				C9C118F02BFF445900AAE554 /* Product.swift in Sources */,
+				C9C118EE2BFF443E00AAE554 /* NetworkError.swift in Sources */,
+				C9C118EC2BFF43F100AAE554 /* DashboardViewModel.swift in Sources */,
 				C9C118BE2BFF331C00AAE554 /* ContentView.swift in Sources */,
+				C9C118EA2BFF39CC00AAE554 /* DashboardView.swift in Sources */,
 				C9C118C02BFF331C00AAE554 /* Item.swift in Sources */,
 				C9C118BC2BFF331C00AAE554 /* CoopdukaApp.swift in Sources */,
 			);
